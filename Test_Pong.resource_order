@@ -19,7 +19,13 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oGame","order":3,"path":"objects/oGame/oGame.yy",},
+    {"name":"menu","order":1,"path":"rooms/menu/menu.yy",},
     {"name":"sPointZone","order":3,"path":"sprites/sPointZone/sPointZone.yy",},
+    {"name":"oBtn_Play","order":9,"path":"objects/oBtn_Play/oBtn_Play.yy",},
+    {"name":"btn_parent","order":6,"path":"objects/btn_parent/btn_parent.yy",},
+    {"name":"Sprite6","order":16,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"oBtn_Quit","order":8,"path":"objects/oBtn_Quit/oBtn_Quit.yy",},
+    {"name":"default_btn","order":4,"path":"sprites/default_btn/default_btn.yy",},
     {"name":"oPointZone","order":5,"path":"objects/oPointZone/oPointZone.yy",},
     {"name":"oBall","order":2,"path":"objects/oBall/oBall.yy",},
     {"name":"obgPong","order":4,"path":"objects/obgPong/obgPong.yy",},
