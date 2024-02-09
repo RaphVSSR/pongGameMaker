@@ -18,3 +18,11 @@ if (player == 1){
 		y += _speed;
 	}
 }
+
+if (bbox_bottom > room_height){
+	y = room_height - (sprite_height * 0.5);
+}
+
+if (bbox_top < 0){
+	y = 0 + (sprite_height * 0.5);
+}
