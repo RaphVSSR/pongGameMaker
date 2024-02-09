@@ -1,4 +1,4 @@
-if (player == 0){
+if (player == 1){
 
 	if (keyboard_check(vk_up)){
 		y -= _speed;
@@ -8,7 +8,7 @@ if (player == 0){
 		y += _speed;
 	}
 }
-if (player == 1){
+if (player == 0){
 
 	if (keyboard_check(ord("Z"))){
 		y -= _speed;
