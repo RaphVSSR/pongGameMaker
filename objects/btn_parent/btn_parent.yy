@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "assts_menu",
+    "path": "folders/Objects/assts_menu.yy",
   },
   "parentObjectId": null,
   "persistent": false,

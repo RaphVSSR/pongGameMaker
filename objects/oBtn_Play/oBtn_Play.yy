@@ -4,14 +4,15 @@
   "name": "oBtn_Play",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"btn_parent","path":"objects/btn_parent/btn_parent.yy",},"propertyId":{"name":"button_text","path":"objects/btn_parent/btn_parent.yy",},"value":"Play",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "assts_menu",
+    "path": "folders/Objects/assts_menu.yy",
   },
   "parentObjectId": {
     "name": "btn_parent",

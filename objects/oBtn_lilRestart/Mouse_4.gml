@@ -2,4 +2,4 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(rmGame);
+room_restart();
