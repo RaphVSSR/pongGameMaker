@@ -16,6 +16,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"assts_game","folderPath":"folders/Objects/assts_game.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"assts_gameOver","folderPath":"folders/Objects/assts_gameOver.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"assts_menu","folderPath":"folders/Objects/assts_menu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
@@ -27,8 +30,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"assts_menu","folderPath":"folders/Objects/assts_menu.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"assts_game","folderPath":"folders/Objects/assts_game.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -39,6 +40,8 @@
   "resources": [
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},},
+    {"id":{"name":"oGameOver","path":"objects/oGameOver/oGameOver.yy",},},
+    {"id":{"name":"oBtn_RtrnMenu","path":"objects/oBtn_RtrnMenu/oBtn_RtrnMenu.yy",},},
     {"id":{"name":"ftSbTitle","path":"fonts/ftSbTitle/ftSbTitle.yy",},},
     {"id":{"name":"default_lilBtn","path":"sprites/default_lilBtn/default_lilBtn.yy",},},
     {"id":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
@@ -52,6 +55,7 @@
     {"id":{"name":"oBtn_lilRestart","path":"objects/oBtn_lilRestart/oBtn_lilRestart.yy",},},
     {"id":{"name":"ftTitle","path":"fonts/ftTitle/ftTitle.yy",},},
     {"id":{"name":"default_btn","path":"sprites/default_btn/default_btn.yy",},},
+    {"id":{"name":"rmEnd","path":"rooms/rmEnd/rmEnd.yy",},},
     {"id":{"name":"oPointZone","path":"objects/oPointZone/oPointZone.yy",},},
     {"id":{"name":"bgPong","path":"sprites/bgPong/bgPong.yy",},},
     {"id":{"name":"default_lilRestart","path":"sprites/default_lilRestart/default_lilRestart.yy",},},
@@ -64,6 +68,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
     {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"roomId":{"name":"rmEnd","path":"rooms/rmEnd/rmEnd.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

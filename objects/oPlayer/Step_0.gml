@@ -1,3 +1,4 @@
+
 if (player == 1){
 
 	if (keyboard_check(vk_up)){
